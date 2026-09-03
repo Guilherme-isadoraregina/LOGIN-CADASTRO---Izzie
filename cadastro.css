@@ -73,3 +73,25 @@ button {
 button:hover {
     background-color: #0056b3; /* Cor mais escura quando passa o mouse */
 }
+
+/* Estilização da área dos links abaixo do botão */
+.login-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between; /* Espaça os dois links (um em cada ponta) */
+    align-items: center;
+}
+
+/* Estilo de texto em formato de pequeno botão */
+.login-links a {
+    color: #007bff;
+    font-size: 13px;
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+    transition: color 0.2s, text-decoration 0.2s;
+}
+
+/* Efeito ao passar o mouse por cima */
+.login-links a:hover {
+    color: #0056b3;
+    text-decoration: underline; /* Opcional: exibe o sublinhado ao passar o mouse */
+}
