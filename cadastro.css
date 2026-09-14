@@ -17,6 +17,18 @@ body {
     background-color: #322b56; /* Cor de fundo da página */
 }
 
+.login-card {
+    background-color: #3c669d;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px;
+    
+    /* Escala o elemento em 1.2x (20% maior) */
+    transform: scale(1.2);
+}
+
 /* A caixinha de login */
 .login-card {
     background-color: #3c669d;
